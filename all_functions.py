@@ -119,12 +119,9 @@ def some_job():
             maybe_event()
             reject_event()
 
-            dt = datetime.now() + timedelta(minutes=10)
-            """dt = dt.replace(minute=10)"""
-
-            while datetime.now() < dt:
-                time.sleep(1)
-        continue
+        dt = datetime.now() + timedelta(minutes=10)
+        while datetime.now() < dt:
+            time.sleep(1)
 
 def add_to_startup(file_path="all_functions.py"):
     if file_path == "all_functions.py":
