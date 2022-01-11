@@ -1,4 +1,4 @@
-To setup this program run the setup!!!!!!! it will print you something like that:
+To setup this program run the setup. it will print you something like that:
 Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type......
 Enter the authorization code:
 
